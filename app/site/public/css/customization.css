@@ -1,0 +1,412 @@
+
+
+/***#afb4b8***/
+
+/*Home page start*/
+
+.handy-home-banner .banner-content .search-wrap-inner .btn{
+	background: #87162c;
+}
+.btn-post-task{
+	background:#87162c;
+	border: 1px solid #87162c;
+}
+.btn-post-task:hover {
+    background: #fff;
+    color: #87162c;
+    border: 1px solid #87162c;
+}
+.handy-home-testimonials .testimonials-wrap .author-name .highlight {
+    color: #afb4b8 !important;
+}
+.slick-next{
+	 background: #87162c !important;
+}
+.slick-prev{
+	 background: #87162c !important;
+}
+.handy-home-newsletter {
+    background-color: #afb4b8;
+}
+
+/*Home page end*/
+
+
+
+/*User add address page start*/
+
+.selectadd .button_se {
+    background: #87162c;
+}
+.bluebtn {
+    background: #87162c;
+    border:1px solid #87162c;
+}
+.bluebtn:hover {
+    background: #fff;
+    border:1px solid #87162c;
+    color: #87162c;
+}
+
+/*User add address page end*/
+
+
+/*tasker search result start*/
+
+.srch-title span {
+    background: #afb4b8;
+ }
+ ul.tab-icon li.active i {
+    background: #afb4b8;
+ }
+ span.hur-amt {
+    background: #87162c;
+}
+.hire-stp2 .hirestep-2 .tskr-vew .hirebtn {
+    border: 1px solid #87162c;
+    background: #87162c;
+}
+.hire-stp2 .hirestep-2 .tskr-vew a {
+    font-size: 15px;
+    color: #87162c;
+ }
+ .hire-stp2 .tasker-dtl-info .glyphicon-ok, .hire-stp2 .tasker-dtl-info .glyphicon-thumbs-down {
+    color: #87162c;
+}
+ul.tab-icon li i{
+	color: #afb4b8;
+}
+.price-range .ui-slider-horizontal .ui-slider-range {
+    background: #afb4b8;
+}
+.hire-stp2 .hirestep-2 .tskr-vew .hirebtn:hover {
+    background: #fff;
+    color: #87162c!important;
+    border:1px solid #87162c;
+}
+.hire-stp2 .hirestep-2 .tskr-vew .hirebtn:hover > span.muted {
+    color: #87162c;
+}
+ /*tasker search result end*/
+
+
+ /*chat page start*/
+
+ .confirm_buut {
+    background: #87162c none repeat scroll 0 0!important;
+    border: 1px solid #87162c;
+ }
+ .confirm_buut:hover{
+ 	 background: #fff none repeat scroll 0 0!important;
+ 	 color: #87162c;
+    border: 1px solid #87162c;
+ }
+ .task-dtls .chat-post button.input-group-addon:hover:before {
+    color: #afb4b8;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: #afb4b8;
+    background-color: #fff;
+    border-color: #afb4b8;
+}
+
+
+ /*chat page end*/
+
+
+ /*footer start*/
+
+.handy-home-footer .footer ul.footer_links li a:hover {
+    text-decoration: none;
+    color: #87162c;
+}
+.drpdwn-cnt li:hover {
+    color: #afb4b8;
+}
+.cu-drpdwn li:hover {
+    color: #afb4b8;
+}
+.handy-home-footer .footer ul.social-icons li a i:hover {
+    background-color: #afb4b8;
+    border-color: #afb4b8;
+    color: #fff;
+}
+
+/*footer end*/
+
+
+/*all-popup start*/
+
+.revw-star span i{
+	color:#bd223b;
+}
+.btn-primary, .btn-warning{
+	background: #87162c;
+	color: #fff;
+	border:1px solid #87162c;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
+	background: #fff;
+	color: #87162c;
+	border:1px solid #87162c;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning{
+	background: #fff;
+	color: #87162c;
+	border:1px solid #87162c;
+}
+.modal-header {
+    background-color: #87162c;
+}
+.availabilities-day-form .modal-header, .availabilities-day-form .modal-header{
+	background-color: #87162c!important;
+}
+/*all-popup end*/
+
+
+/*my account start*/
+.tabdetails .nav > li.active > a {
+    background: #fff;
+    border: 1px solid #afb4b8!important;
+    color: #afb4b8!important;
+    box-shadow: none;
+}
+
+.account .maintab > ul.nav > li.active > a{
+	background: #afb4b8;
+}
+.account .maintab > ul.nav > li > a:hover{
+	background: #afb4b8;
+}
+.account-section .btn.btn-secondary.btn-small{
+	border: 1px solid #87162c;
+    float: right;
+    font-size: 16px;
+    margin: 0 0 10px;
+    padding: 5px 20px;
+    color: #87162c;
+}
+.account-view .admn-details i{
+	background: #87162c;
+}
+.tabdetails .nav > li > a{
+	background: #afb4b8;
+}
+.confrm {
+    background: #87162c!important;
+}
+.invite-frnds .btnholder a.invite-mail, .invite-frnds .btnholder a.invite-fb {
+    
+        padding: 18px 20px;
+    color: #ffffff;
+    border: 1px solid #87162c;
+    border-color: #87162c;
+    background: #87162c;
+    border-top: #87162c;
+    font-family: proximanovaregular !important;
+    font-weight: 400;
+    text-shadow: none;
+    height: auto;
+    line-height: 0px;
+
+}
+.current-balance a h4{
+	background: #87162c;
+}
+.wallet-mny input[type=radio]:checked ~ .check {
+    border: 5px solid #841b2c;
+}
+.wallet-mny input[type=radio]:checked ~ .check {
+    border: 5px solid #841b2c;
+    background: #afb4b8;
+}
+
+.wall-balrgt .mny-pay input[type="number"]{
+	    border-bottom: 2px solid #afb4b8;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+	color: #fff;
+    cursor: default;
+    background-color: #87162c;
+    border-color: #ffffff;
+}
+.emptyfie{
+	color: #afb4b8!important;
+}
+/*my account end*/
+
+
+/*tasker profile start*/
+	.custom-icon{
+		border: 3px solid #afb4b8;
+    	color: #afb4b8;
+	}	
+	.hirebtn{
+	    border: 1px solid #afb4b8;
+		border-radius: 3px;
+		color: #afb4b8;
+	}	
+	.hirebtn:hover{
+		background: #afb4b8;
+	}
+	.nav > li > a{
+		color: #afb4b8;
+	}
+	.hirebtn > span.muted{
+		color: #afb4b8;
+	}
+	.hirebtn > span {
+	    color: #afb4b8;
+	}
+
+/*tasker profile end*/
+
+
+/*login and signup start*/
+
+
+.blue-btn, .grn-btn{
+	background-color: #87162c;
+    border: 1px solid #87162c;
+}
+.sign-btns li a:hover {
+    color: #afb4b8;
+}
+.blue-btn:hover, .grn-btn:hover{
+	background-color: #fff;
+}
+.sign-btns li.half-pges a{
+	color: #87162c;
+	border: 1px solid #87162c;
+}
+.sign-btns li > a.fb-btn:hover{
+	background: #fff;
+	color: #afb4b8;
+	opacity: 1;
+}
+.frget-pwd a {
+    color: #afb4b8;
+}
+
+.blue-btn:hover, .grn-btn:hover {
+    background-color: #fff;
+    color: #87162c!important;
+}
+
+/*login and signup end*/
+	
+	.progressbar > span{
+		background: #afb4b8;
+	}
+
+/*tasker registration start*/
+
+
+
+/*tasker registration start*/
+
+
+.progressbar > span{
+	background: #afb4b8;
+}
+ul.day-list.dte-pkr .cal-holde .dropdown-menu table tbody .btn-default:hover, ul.day-list.dte-pkr .cal-holde .dropdown-menu table tbody .btn-default:focus, ul.day-list.dte-pkr .cal-holde .dropdown-menu table tbody .btn-default:active, ul.day-list.dte-pkr .cal-holde .dropdown-menu table tbody .btn-default.active, ul.day-list.dte-pkr .cal-holde .dropdown-menu table tbody .open .dropdown-toggle.btn-default{
+	background-color: #afb4b8;
+    border-color: #afb4b8;
+}
+ul.day-list.dte-pkr .dropdown-menu table thead tr:first-child{
+	background: #afb4b8;
+}
+.availabilities-day-form input:checked + .switch{
+	background: #66C092 none repeat scroll 0 0;
+}
+.onoffswitch .switch {
+        background: #d45d5d none repeat scroll 0 0;
+    }
+.btn-success {
+    color: #fff;
+    background-color: #afb4b8;
+    border-color: #afb4b8;
+}
+.btn-success:hover{
+	color: #fff;
+    background-color: #afb4b8;
+    border-color: #afb4b8;
+}
+.signup-tasker-steps-wrap .category-details:nth-child(odd) {
+    background: #afb4b8;
+}
+.signup-tasker-steps-wrap .category-details:nth-child(even) {
+    background: #afb4b8;
+}
+.category-details .btn-info {
+    color: #fff;
+    background-color: #ffffff;
+    border-color: #afb4b8;
+}
+.category-details .btn-info i{
+	color: #afb4b8;
+}
+.datepicker .btn-info.active {
+    background-color: #afb4b8 !important;
+}
+.category-details h4{
+	color: #fff;
+}
+.post_step_last span.page-scroll{
+	background: #afb4b8;
+}
+
+
+/*tasker registration end*/
+
+
+
+
+/*tasker myaccount start*/
+
+i.glyphicon.ng-scope.glyphicon-star {
+    /*color: #afb4b8;*/
+    color:#172d54;
+    /*color:linear-gradient(to bottom, #172d54 0%, #25457c 100%);*/
+}
+.cat-tab .account-section button{
+	background: #87162c;
+}
+
+.cat-tab .admn-details a{
+	    color: #87162c;
+}
+
+/*tasker myaccount end*/
+
+
+
+/*payment page start*/
+
+.mke-pay .conf-divs h3{
+	color: #afb4b8;
+}
+.copuon-cde input.couponbtn{
+	background: #afb4b8;
+}
+.mke-pay .confbook-text{
+	color: #afb4b8;
+}
+
+/*payment page end*/
+
+
+button.addfields {
+    background-color: #afb4b8;
+}
+.pin {
+	background: #afb4b8;
+}
+.pulse {
+	box-shadow: 0 0 1px 2px #afb4b8; 
+}
+
+
+a.btn.btn-secondary.js-deactivate-trigger.confrm.conform:hover {
+    color: #fff;
+}

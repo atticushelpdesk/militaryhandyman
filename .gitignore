@@ -1,0 +1,8 @@
+node_modules
+uploads/*
+https:
+logs/*
+db/09082018
+db/27092018
+db/mongobak13092019
+config/apns

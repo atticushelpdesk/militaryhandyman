@@ -1,0 +1,53 @@
+{
+    "port": "3003",
+    "mongodb": {
+        "host": "localhost",
+        "port": "27017",
+        "database": "militaryhandyman",
+        "username": "admin",
+        "password": "admin"
+    },
+    "settings": {
+        "wallet": {
+            "amount": {
+                "minimum": "1",
+                "maximum": "1000",
+                "welcome": "50"
+            },
+            "status": "1"
+        },
+        "site_title": "MilitaryHandyman",
+        "site_url": "https://www.militaryhandyman.com/",
+        "site_video_url": "Fn3NBACig4g",
+        "location": "555 West 5th Street, 35th Floor Los Angeles CA 90013",
+        "siteaddress": "555 West 5th Street, 35th Floor Los Angeles CA 90013",
+        "email_address": "support@militaryhandyman.com",
+        "admin_commission": "25",
+        "minimum_amount": "300",
+        "service_tax": "0",
+        "billingcycle": "3",
+        "accepttime": "15",
+        "minaccepttime": "7",
+        "distanceby": "mi",
+        "bookingIdPrefix": "MHM",
+        "time_zone": "US/Pacific",
+        "date_format": "MM/DD/YYYY",
+        "time_format": "hh:mm a",
+        "pay_by_cash": {
+            "status": "1"
+        },
+        "referral": {
+            "status": "1",
+            "amount": {
+                "referral": "10% Off",
+                "referrer": "10% Off"
+            }
+        },
+        "categorycommission": {
+            "status": "0"
+        },
+        "logo": "uploads/images/others/1534389524813.png",
+        "light_logo": "uploads/images/others/1534389524819.png",
+        "favicon": "uploads/images/others/1534389524825.png"
+    }
+}

@@ -1,2 +1,7 @@
-# militaryhandyman
-Military Handyman
+# Military Handyman
+
+## Setting up
+
+```
+npm install
+```

@@ -1,0 +1,62 @@
+<div class="modal-header">
+    <h3 class="modal-title">{{'BACKGROUND_CHECK' | translate}}</h3>
+</div>
+<div class="modal-body cat-add-pop">
+
+    <form class="form-horizontal col-sm-12" name="accurateCheckForm" role="form" enctype="multipart/form-data"
+        submit-validate novalidate>
+        <div class="form-group" ng-class="{'has-error' : accurateCheckForm.firstname.$invalid && !accurateCheckForm.firstname.$pristine, 'has-success' : accurateCheckForm.firstname.$valid && !accurateCheckForm.firstname.$pristine}">
+            <label>First Name</label>
+            <input type="text" name="firstname" id="firstname" ng-model="AMI.accurate.firstname" class="form-control" ng-maxlength="50" required>
+            <p class="help-block">
+                <span ng-show="accurateCheckForm.firstname.$invalid && !accurateCheckForm.firstname.$pristine && accurateCheckForm.firstname.$error.required"> First Name is required.</span>
+                <span ng-show="accurateCheckForm.firstname.$invalid && !accurateCheckForm.firstname.$pristine && accurateCheckForm.firstname.$error.maxlength"> First Name length shouldn't exceed 50 characters.</span>
+            </p>
+        </div>
+        <div class="form-group" ng-class="{'has-error' : accurateCheckForm.lastname.$invalid && !accurateCheckForm.lastname.$pristine, 'has-success' : accurateCheckForm.lastname.$valid && !accurateCheckForm.lastname.$pristine}">
+            <label>Last Name</label>
+            <input type="text" name="lastname" id="lastname" ng-model="AMI.accurate.lastname" class="form-control" ng-maxlength="100" required>
+            <p class="help-block">
+                <span ng-show="accurateCheckForm.lastname.$invalid && !accurateCheckForm.lastname.$pristine && accurateCheckForm.lastname.$error.required"> Last Name is required.</span>
+                <span ng-show="accurateCheckForm.lastname.$invalid && !accurateCheckForm.lastname.$pristine && accurateCheckForm.lastname.$error.maxlength"> Last Name length shouldn't exceed 100 characters.</span>
+            </p>
+        </div>
+        <div class="form-group" ng-class="{'has-error' : accurateCheckForm.email.$invalid && !accurateCheckForm.email.$pristine, 'has-success' : accurateCheckForm.email.$valid && !accurateCheckForm.email.$pristine}">
+            <label>E-mail</label>
+            <input type="text" name="email" id="email" ng-model="AMI.accurate.email" ng-pattern="AMI.pattern" class="form-control" required>
+            <p class="help-block">
+                <span ng-show="accurateCheckForm.email.$invalid && !accurateCheckForm.email.$pristine && accurateCheckForm.email.$error.required"> E-mail is required.</span>
+                <span ng-show="accurateCheckForm.email.$invalid && !accurateCheckForm.email.$pristine && accurateCheckForm.email.$error.pattern"> Please provide a valid E-mail Id.</span>
+            </p>
+        </div>
+       <!--  <div class="form-group" ng-class="{ 'has-error' :accurateForm.username.$invalid && !accurateForm.username.$pristine, 'has-success' : accurateForm.username.$valid && !accurateForm.username.$pristine}">
+            <label for="exampleInputEmail1">Username</label>
+            <input type="text" name="username" id="username" class="form-control" ng-model="ACL.username" required=""
+                aria-required="true" aria-invalid="true" on-blur-validation required>
+            <p class="help-block">
+                <span ng-show="accurateForm.username.$invalid && !accurateForm.username.$pristine"> Username is
+                    required.</span>
+            </p>
+        </div> -->
+    </form>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="submit" ng-click="AMI.ok(AMI.accurate,accurateCheckForm.$valid)">{{'OK' | translate}}</button>
+    <button class="btn btn-warning" type="button" ng-click="AMI.cancel()">{{'CANCEL' | translate}}</button>
+</div>
+<style>
+    .input-group {
+        position: relative;
+        display: table;
+        width: 212px;
+        border-collapse: separate;
+        padding: 13px 0 0 5px;
+    }
+
+    .modal-footer {
+        padding: 19px 20px 20px;
+        /*margin-top: 463px;*/
+        text-align: right;
+
+    }
+</style>
