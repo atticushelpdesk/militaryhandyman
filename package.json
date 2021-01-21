@@ -78,7 +78,7 @@
     "querystring": "^0.2.0",
     "serve-favicon": "^2.4.5",
     "sha512": "0.0.1",
-    "socket.io": "^1.7.4",
+    "socket.io": "^2.4.0",
     "stream-series": "^0.1.1",
     "stripe": "^4.25.0",
     "twilio": "^3.16.0",
