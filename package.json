@@ -74,7 +74,7 @@
     "phantomjs": "^2.1.7",
     "phantomjs-prebuilt": "^2.1.16",
     "pug": "^2.0.0-rc.4",
-    "qs": "^6.5.1",
+    "qs": "^6.5.3",
     "querystring": "^0.2.0",
     "serve-favicon": "^2.4.5",
     "sha512": "0.0.1",
