@@ -69,7 +69,7 @@
     "passport-local": "^1.0.0",
     "passport-twitter": "^1.0.4",
     "paypal-rest-sdk": "^1.8.1",
-    "pdfjs-dist": "^1.10.97",
+    "pdfjs-dist": "^3.1.81",
     "phantom": "^4.0.12",
     "phantomjs": "^2.1.7",
     "phantomjs-prebuilt": "^2.1.16",
